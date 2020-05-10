@@ -6,13 +6,13 @@ export default function BoxProfile() {
     <div>
       <div className="usernamebox">
         <div className="imgabsolute">
-          <img src="SVG/young-man.svg"></img>
+          <img src="SVG/young-man.svg" alt="Profile pic"></img>
         </div>
         <div className="top-right">
           <div className="langsec">
-            <img src="SVG/Github.svg"></img>
+            <img src="SVG/Github.svg" alt="github"></img>
             <div className="top-right-in">
-              <img src="SVG/Linkedin.svg"></img>
+              <img src="SVG/Linkedin.svg" alt="linkedin"></img>
             </div>
           </div>
         </div>
@@ -20,7 +20,7 @@ export default function BoxProfile() {
           <p>@aryasoni98</p>
         </div>
         <div className="top-right-line">
-          <img src="SVG/underline (1).svg"></img>
+          <img src="SVG/underline (1).svg" alt="underline"></img>
         </div>
         <div class="boxcontent">
           <p className="usersname">User</p>
@@ -42,7 +42,7 @@ export default function BoxProfile() {
             <div className="smallbox">
               <div className="langsec">
                 <div className="follow">
-                  <img src="SVG/people 1.svg"></img>
+                  <img src="SVG/people 1.svg" alt="follow"></img>
                 </div>
                 <div className="count">
                   <p>1</p>
@@ -55,7 +55,7 @@ export default function BoxProfile() {
             <div className="smallbox">
               <div className="langsec">
                 <div className="heart">
-                  <img src="SVG/heart.svg"></img>
+                  <img src="SVG/heart.svg" alt="heart"></img>
                 </div>
                 <div className="count">
                   <p>5</p>
@@ -68,7 +68,7 @@ export default function BoxProfile() {
             <div className="smallbox">
               <div className="langsec">
                 <div className="heart">
-                  <img src="SVG/interface 1.svg"></img>
+                  <img src="SVG/interface 1.svg" alt="save"></img>
                 </div>
                 <div className="count">
                   <p>5</p>
@@ -81,7 +81,7 @@ export default function BoxProfile() {
             <div className="smallbox">
               <div className="langsec">
                 <div className="heart">
-                  <img src="SVG/multimedia 1.svg"></img>
+                  <img src="SVG/multimedia 1.svg" alt="osp"></img>
                 </div>
                 <div className="count">
                   <p>1</p>
@@ -96,10 +96,10 @@ export default function BoxProfile() {
       </div>
       <div className="usernamebox">
         <div className="imgabsolute-lower">
-          <img src="SVG/Rectangle 217.svg"></img>
+          <img src="SVG/Rectangle 217.svg" alt="project"></img>
         </div>
         <div className="imgabsolute-lowerheart">
-          <img src="SVG/heart (1).svg"></img>
+          <img src="SVG/heart (1).svg" alt="like"></img>
           <p>213</p>
         </div>
         <div className="top-right-below">
@@ -107,7 +107,7 @@ export default function BoxProfile() {
             <div className="smallbox-below">
               <div className="langsec">
                 <div>
-                  <img src="SVG/Icon awesome-exclamation-circle.svg"></img>
+                  <img src="SVG/Icon awesome-exclamation-circle.svg" alt="issue"></img>
                 </div>
                 <div>
                   <p>Issues:13</p>
@@ -118,7 +118,7 @@ export default function BoxProfile() {
               <div className="smallbox-below">
                 <div className="langsec">
                   <div>
-                    <img src="SVG/pr.svg"></img>
+                    <img src="SVG/pr.svg" alt="pr"></img>
                   </div>
                   <div>
                     <p>PR:1233</p>
