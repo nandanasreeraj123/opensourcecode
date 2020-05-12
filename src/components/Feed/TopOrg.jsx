@@ -1,18 +1,19 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import styles from "../../css/feed.module.css";
 
 
-class FeedOrg extends Component {
-  state = {
-    showitems: false,
-  };
-  dropDown = () => {
-    this.setState((prevState) => ({
-      showitems: !prevState.showitems,
-    }));
+const FeedOrg = ()=> {
+  const [state, setState] = useState(false);
+  
+  const dropDown = () => {
+    if (state) {
+      setState(false);
+    } else {
+      setState(true);
+    }
   };
 
-  render() {
+ 
     return (
       <div className={styles["smallbox"]}>
         <div className={styles["Language-Head"]}>
@@ -20,12 +21,12 @@ class FeedOrg extends Component {
             <div className={styles["lang-space"]}>
               <p>Top Organisations</p>
             </div>
-            <div onClick={this.dropDown}>
+            <button onClick={dropDown} className={styles["btn-drop"]}>
               <img src="SVG/dropdown-icon.svg" alt="dropdown"></img>
-            </div>
+            </button>
           </div>
         </div>
-        <div style={{ display: this.state.showitems ? "block" : "none" }}>
+        <div style={{ display: state ? "block" : "none" }}>
           <div className={styles["Languages"]}>
             <div className={styles["disp-flex"]}>
               <div className={styles["Languages-num"]}>
@@ -62,5 +63,5 @@ class FeedOrg extends Component {
       </div>
     );
   }
-}
+
 export default FeedOrg;

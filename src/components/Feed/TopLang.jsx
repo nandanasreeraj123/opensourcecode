@@ -1,17 +1,16 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import styles from "../../css/feed.module.css";
 
-class FeedLang extends Component {
-  state = {
-    showitems: false,
+const FeedLang = () => {
+  const [state, setState] = useState(false);
+  
+  const dropDown = () => {
+    if (state) {
+      setState(false);
+    } else {
+      setState(true);
+    }
   };
-  dropDown = () => {
-    this.setState((prevState) => ({
-      showitems: !prevState.showitems,
-    }));
-  };
-
-  render() {
     return (
       <div className={styles["smallbox"]}>
         <div className={styles["Language-Head"]}>
@@ -19,12 +18,12 @@ class FeedLang extends Component {
             <div className={styles["lang-space"]}>
               <p>Top Languages</p>
             </div>
-            <div onClick={this.dropDown}>
+            <button onClick={dropDown} className={styles["btn-drop"]}>
               <img src="SVG/dropdown-icon.svg" alt="dropdown"></img>
-            </div>
+            </button>
           </div>
         </div>
-        <div style={{ display: this.state.showitems ? "block" : "none" }}>
+        <div style={{ display: state ? "block" : "none" }}>
           <div className={styles["Languages"]}>
             <div className={styles["disp-flex"]}>
               <div className={styles["Languages-num"]}>
@@ -61,5 +60,5 @@ class FeedLang extends Component {
       </div>
     );
   }
-}
+
 export default FeedLang;
