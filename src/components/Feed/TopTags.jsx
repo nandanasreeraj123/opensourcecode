@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styles from "../../css/feed.module.css";
-import PropTypes from "prop-types";
+
 
 class FeedTag extends Component {
   render() {
