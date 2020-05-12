@@ -8,11 +8,11 @@ import FeedFinal from '../src/components/Feed/FeedFinal';
 const feed = () => (
   <div>
     <Header />
-    <FeedIntroduction/>
-    <SearchBar/>
+    <FeedIntroduction />
+    <SearchBar page="feed"/>
 
-    <FeedFinal/>
-    
+    <FeedFinal />
+
   </div>
 );
 

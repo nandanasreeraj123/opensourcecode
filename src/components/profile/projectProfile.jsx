@@ -12,43 +12,43 @@ export default function ProjectProfile() {
           <img src="SVG/heart (1).svg" alt="like" />
           <p>213</p>
         </div>
-        <div className={styles["user-flex"]}>
-        <div className={styles["usersname"]}>
+        <div className={styles['user-flex']}>
+          <div className={styles.usersname}>
             <p>Open Source Code</p>
           </div>
-        <div>
-          <div className={styles["langsec"]}>
-            <div className={styles["smallbox-below"]}>
-              <div className={styles["langsec"]}>
-                <div>
-                  <img
-                    src="SVG/Icon awesome-exclamation-circle.svg"
-                    alt="issue"
-                  />
-                </div>
-                <div>
-                  <p>Issues:13</p>
-                </div>
-              </div>
-            </div>
-            <div>
+          <div>
+            <div className={styles.langsec}>
               <div className={styles['smallbox-below']}>
                 <div className={styles.langsec}>
                   <div>
-                    <img src="SVG/pr.svg" alt="pr" />
+                    <img
+                      src="SVG/Icon awesome-exclamation-circle.svg"
+                      alt="issue"
+                    />
                   </div>
                   <div>
-                    <p>PR:1233</p>
+                    <p>Issues:13</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className={styles['smallbox-below']}>
+                  <div className={styles.langsec}>
+                    <div>
+                      <img src="SVG/pr.svg" alt="pr" />
+                    </div>
+                    <div>
+                      <p>PR:1233</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        </div>
-        <div className={styles["padding-below"]}>
-          
-          <div className={styles["date"]}>
+        <div className={styles['padding-below']}>
+
+          <div className={styles.date}>
             <p>By Organisation | 08 May 2020</p>
             <p className={styles.contentuser}>
               There should be some content her. So I am filling this with random
@@ -57,8 +57,8 @@ export default function ProjectProfile() {
               look like on the real website page
             </p>
           </div>
-          <div className={styles["langsec"]}>
-            <div className={styles["langButtonJS"]}>
+          <div className={styles.langsec}>
+            <div className={styles.langButtonJS}>
               <p>Javascript</p>
             </div>
             <div className={styles['langButtonCSS-below']}>
