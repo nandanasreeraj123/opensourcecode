@@ -9,7 +9,7 @@ const feed = () => (
   <div>
     <Header />
     <FeedIntroduction />
-    <SearchBar page="feed"/>
+    <SearchBar page="feed" />
 
     <FeedFinal />
 
