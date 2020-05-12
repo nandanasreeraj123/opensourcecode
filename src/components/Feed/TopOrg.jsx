@@ -1,0 +1,66 @@
+import React, { Component } from "react";
+import styles from "../../css/feed.module.css";
+import PropTypes from "prop-types";
+
+class FeedOrg extends Component {
+  state = {
+    showitems: false,
+  };
+  dropDown = () => {
+    this.setState((prevState) => ({
+      showitems: !prevState.showitems,
+    }));
+  };
+
+  render() {
+    return (
+      <div className={styles["smallbox"]}>
+        <div className={styles["Language-Head"]}>
+          <div className={styles["disp-flex"]}>
+            <div className={styles["lang-space"]}>
+              <p>Top Organisations</p>
+            </div>
+            <div onClick={this.dropDown}>
+              <img src="SVG/dropdown-icon.svg" alt="dropdown"></img>
+            </div>
+          </div>
+        </div>
+        <div style={{ display: this.state.showitems ? "block" : "none" }}>
+          <div className={styles["Languages"]}>
+            <div className={styles["disp-flex"]}>
+              <div className={styles["Languages-num"]}>
+                <p>1.</p>
+              </div>
+              <div  className={styles["Languages-mozilla"]}>
+                <div>
+                <p>Javascript</p></div>
+                <div className={styles["small-follow"]}><p>Follow</p></div>
+              </div>
+            </div>
+            <div className={styles["disp-flex"]}>
+              <div className={styles["Languages-num"]}>
+                <p>2.</p>
+              </div>
+              <div  className={styles["Languages-google"]}>
+                <div>
+                <p>CSS</p></div>
+                <div className={styles["small-follow"]}><p>Follow</p></div>
+              </div>
+            </div>
+            <div className={styles["disp-flex"]}>
+              <div className={styles["Languages-num"]}>
+                <p>3.</p>
+              </div>
+              <div  className={styles["Languages-facebook"]}>
+                <div>
+                <p>Node</p></div>
+                <div className={styles["small-follow"]}><p>Follow</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+export default FeedOrg;

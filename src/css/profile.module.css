@@ -1,6 +1,20 @@
 
           .usernamebox {
             max-width: 90%;
+            margin-bottom: 30px;
+            border-radius: 20px;
+            padding-top: 7px;
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-bottom: 10px;
+            margin-left: 100px;
+            margin-right: 100px;
+            box-shadow: 0 0 5px #888888;
+            padding-bottom: 40px;
+            margin-top: 100px;
+          }
+          .usernamebox-profile{
+            max-width: 90%;
 
             border-radius: 20px;
             padding-top: 20px;
@@ -48,6 +62,9 @@
 
             margin-right: 40px;
           }
+          .disp-flex:first-child{
+            width:50%;
+          }
           .smallbox-below {
             font-weight: 600;
             border-radius: 20px;
@@ -73,14 +90,17 @@
             margin-left: 15px;
             margin-top: 1px;
           }
-          .top-right {
-            position: absolute;
-            margin-left: 1100px;
+          .user-flex{
+            display:flex;
+            justify-content: space-between;
           }
-          .top-right-below {
-            position: absolute;
-            margin-left: 1050px;
+          .user-flex :first-child {
+            flex-basis: 90%;
           }
+          .margin{
+            margin-left: 350px;
+          }
+          
           .top-right-in {
             margin-left: 20px;
           }
@@ -88,6 +108,13 @@
             font-size: 35px;
             font-weight: 550;
             margin-bottom: 10px;
+            margin-left: 175px;
+          }
+          .usersname-user {
+            font-size: 35px;
+            font-weight: 550;
+            margin-bottom: 10px;
+            
           }
           .usercontent {
             color: #757a7a;
@@ -103,6 +130,10 @@
           }
           .langsec {
             display: flex;
+          }
+          .langsec-centre {
+            display: flex;
+            justify-content: center;
           }
           .langButtonJS {
             margin-left: 20px;

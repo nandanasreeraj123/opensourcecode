@@ -8,7 +8,7 @@ function Profile() {
     <div>
       <Header />
       <BoxProfile />
-      <ProjectProfile/>
+      <ProjectProfile />
     </div>
   );
 }

@@ -12,7 +12,11 @@ export default function ProjectProfile() {
           <img src="SVG/heart (1).svg" alt="like"></img>
           <p>213</p>
         </div>
-        <div className={styles["top-right-below"]}>
+        <div className={styles["user-flex"]}>
+        <div className={styles["usersname"]}>
+            <p>Open Source Code</p>
+          </div>
+        <div>
           <div className={styles["langsec"]}>
             <div className={styles["smallbox-below"]}>
               <div className={styles["langsec"]}>
@@ -38,10 +42,9 @@ export default function ProjectProfile() {
             </div>
           </div>
         </div>
+        </div>
         <div className={styles["padding-below"]}>
-          <div className={styles["usersname"]}>
-            <p>Open Source Code</p>
-          </div>
+          
           <div className={styles["date"]}>
             <p>By Organisation | 08 May 2020</p>
             <p className={styles["contentuser"]}>
