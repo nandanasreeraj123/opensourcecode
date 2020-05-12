@@ -21,7 +21,7 @@ const FeedOrg = ()=> {
             <div className={styles["lang-space"]}>
               <p>Top Organisations</p>
             </div>
-            <button onClick={dropDown} className={styles["btn-drop"]}>
+            <button type="button" onClick={dropDown} className={styles["btn-drop"]}>
               <img src="SVG/dropdown-icon.svg" alt="dropdown"></img>
             </button>
           </div>
