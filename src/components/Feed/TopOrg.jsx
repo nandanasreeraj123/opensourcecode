@@ -34,7 +34,7 @@ const FeedOrg = ()=> {
               </div>
               <div  className={styles["Languages-mozilla"]}>
                 <div>
-                <p>Javascript</p></div>
+                <p>Mozilla</p></div>
                 <div className={styles["small-follow"]}><p>Follow</p></div>
               </div>
             </div>
@@ -44,7 +44,7 @@ const FeedOrg = ()=> {
               </div>
               <div  className={styles["Languages-google"]}>
                 <div>
-                <p>CSS</p></div>
+                <p>Google</p></div>
                 <div className={styles["small-follow"]}><p>Follow</p></div>
               </div>
             </div>
@@ -54,7 +54,7 @@ const FeedOrg = ()=> {
               </div>
               <div  className={styles["Languages-facebook"]}>
                 <div>
-                <p>Node</p></div>
+                <p>Facebook</p></div>
                 <div className={styles["small-follow"]}><p>Follow</p></div>
               </div>
             </div>
