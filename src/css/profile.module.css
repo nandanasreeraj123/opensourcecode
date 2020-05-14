@@ -152,10 +152,7 @@
   justify-content: left;
   margin-left:1.5rem;
 }
-.langsec-centre {
-  display: flex;
-  justify-content: center;
-}
+
 .langButtonJS {
   margin-left: 1.25rem;
   margin-right: 1.25rem;

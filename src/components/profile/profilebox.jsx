@@ -95,9 +95,7 @@ export default function BoxProfile() {
                 <p>1</p>
               </div>
             </div>
-            <div className={styles['smallboxwriting-osp']}>
-              <p>OSP</p>
-            </div>
+            
           </div>
         </div>
       </div>
