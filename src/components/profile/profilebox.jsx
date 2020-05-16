@@ -95,7 +95,7 @@ export default function BoxProfile() {
                 <p>1</p>
               </div>
             </div>
-            
+
           </div>
         </div>
       </div>
