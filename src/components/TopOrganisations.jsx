@@ -18,23 +18,15 @@ export default function TopOrganisation() {
               <img
                 src="/SVG/search-icon.svg"
                 alt="search"
-                style={{ width: '20px', margin: '5px 5px auto 15px' }}
+                className={styles['search-icon']}
               />
               <input
                 type="search"
                 name="Search"
                 id=""
+                className={styles['input-bar']}
                 placeholder="Search for Organisation"
-                style={{
-                  border: 'none',
-                  color: 'white',
-                  backgroundColor: 'black',
-                  fontSize: '1rem',
-                  fontWeight: '300',
-                  width: '17rem',
-                  marginLeft: '1.3rem',
-                  outline: 'none',
-                }}
+
               />
             </div>
           </div>
@@ -47,35 +39,35 @@ export default function TopOrganisation() {
         <div className={styles.orgs} style={{ backgroundColor: '#B9007B' }}>
           <img src="SVG/google round.svg" alt="google" />
           <p className={styles['box-head']}>Google</p>
-          <div className={styles.follow} style={{ color: '#B9007B' }}>
-            <p>Follow</p>
-          </div>
+          <button type="button" className={styles.follow} style={{ color: '#B9007B' }}>
+            Follow
+          </button>
         </div>
         <div className={styles.orgs} style={{ backgroundColor: 'rgb(0, 119, 255)' }}>
           <img src="SVG/linkedin round.svg" alt="google" />
           <p className={styles['box-head']}>LinkedIn</p>
-          <div className={styles.follow} style={{ color: 'rgb(0, 119, 255)' }}>
-            <p>Follow</p>
-          </div>
+          <button type="button" className={styles.follow} style={{ color: 'rgb(0, 119, 255)' }}>
+            Follow
+          </button>
         </div>
         <div className={styles.orgs} style={{ backgroundColor: 'black' }}>
           <img src="SVG/git round.svg" alt="google" />
           <p className={styles['box-head']}>Github</p>
-          <div className={styles.follow} style={{ color: 'black' }}>
-            <p>Follow</p>
-          </div>
+          <button type="button" className={styles.follow} style={{ color: 'black' }}>
+            Follow
+          </button>
         </div>
         <div className={styles.orgs} style={{ backgroundColor: 'orange' }}>
           <img src="SVG/Group 123.svg" alt="google" />
           <p className={styles['box-head']}>GirlScript</p>
-          <div className={styles.follow} style={{ color: 'orange' }}>
-            <p>Follow</p>
-          </div>
+          <button type="button" className={styles.follow} style={{ color: 'orange' }}>
+            Follow
+          </button>
         </div>
       </div>
-      <div className={styles.next}>
-        <p>Next</p>
-      </div>
+      <button type="button" className={styles.next}>
+        Next
+      </button>
     </div>
   );
 }

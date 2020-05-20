@@ -15,18 +15,32 @@
     margin-top: 8px;
 }
 .search-bar {
-    width: 60%;
+    width: 70%;
     background-color: black;
     border-radius: 112px;
-    padding: 11.2px 11.2px;
+    padding: 7.2px 7.2px;
     display: flex;
     justify-content: space-between;
     margin-top: 24px;
     
   }
   .left-col {
-    width: 60%;
     display: flex;
+  }
+  .input-bar{
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: 1.15rem;
+    font-weight: 300;
+    width: 17rem;
+    margin-left: 1.3rem;
+    outline: none;
+  }
+  .search-icon{
+      min-width:7px;
+      margin:5px 5px auto 15px;
+      min-height: 7px;
   }
   .flex-below{
     display: flex;
@@ -60,7 +74,8 @@
     margin-top: 28.8px;
     margin-bottom: 16px;
     margin-left: 8px;
-    padding: 4.8px;
+    padding-left: 3px;
+    padding-right: 3px;
     border-radius: 8px;
     background-color: white;
     width: fit-content;
@@ -70,7 +85,8 @@
   .next{
       
     width:6.5%;
-    margin-left: auto;
+    position: relative;
+    float:right;
     background-color: #00CACA;
     color:white;
     padding: 8px 8px 8px 8px;

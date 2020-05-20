@@ -18,23 +18,16 @@ export default function TopLanguage() {
               <img
                 src="/SVG/search-icon.svg"
                 alt="search"
-                style={{ width: '20px', margin: '5px 5px auto 15px' }}
+                className={styles['search-icon']}
               />
               <input
                 type="search"
                 name="Search"
                 id=""
                 placeholder="Search for Languages"
-                style={{
-                  border: 'none',
-                  color: 'white',
-                  backgroundColor: 'black',
-                  fontSize: '1rem',
-                  fontWeight: '300',
-                  width: '17rem',
-                  marginLeft: '1.3rem',
-                  outline: 'none',
-                }}
+                className={styles['input-bar']}
+
+
               />
             </div>
           </div>
@@ -47,35 +40,35 @@ export default function TopLanguage() {
         <div className={styles.orgs} style={{ backgroundColor: '#00CACA' }}>
 
           <p className={styles['box-head']}>C++</p>
-          <div className={styles.follow} style={{ color: '#00cACA' }}>
-            <p>Follow</p>
-          </div>
+          <button type="button" className={styles.follow} style={{ color: '#00cACA' }}>
+            Follow
+          </button>
         </div>
         <div className={styles.orgs} style={{ backgroundColor: 'blue' }}>
 
           <p className={styles['box-head']}>Java</p>
-          <div className={styles.follow} style={{ color: 'blue' }}>
-            <p>Follow</p>
-          </div>
+          <button type="button" className={styles.follow} style={{ color: 'blue' }}>
+            Follow
+          </button>
         </div>
         <div className={styles.orgs} style={{ backgroundColor: 'rgb(255, 217, 0)' }}>
 
           <p className={styles['box-head']}>Node</p>
-          <div className={styles.follow} style={{ color: 'rgb(255, 217, 0)' }}>
-            <p>Follow</p>
-          </div>
+          <button type="button" className={styles.follow} style={{ color: 'rgb(255, 217, 0)' }}>
+            Follow
+          </button>
         </div>
         <div className={styles.orgs} style={{ backgroundColor: 'red' }}>
 
           <p className={styles['box-head']}>React</p>
-          <div className={styles.follow} style={{ color: 'red' }}>
+          <button type="button" className={styles.follow} style={{ color: 'red' }}>
             <p>Follow</p>
-          </div>
+          </button>
         </div>
       </div>
-      <div className={styles.next}>
-        <p>Next</p>
-      </div>
+      <button type="button" className={styles.next}>
+        Next
+      </button>
     </div>
   );
 }
