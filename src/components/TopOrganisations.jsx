@@ -7,7 +7,7 @@ export default function TopOrganisation() {
       <div className={styles.flex}>
         <div>
           <div className={styles.heading}>
-            <p>Top 100 Organisations</p>
+            <h1>Top 100 Organisations</h1>
           </div>
           <img src="SVG/orgline.svg" alt="orgline" />
           <div className={styles['p-org']}>

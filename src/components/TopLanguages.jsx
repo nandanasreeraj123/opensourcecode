@@ -7,7 +7,7 @@ export default function TopLanguage() {
       <div className={styles.flex}>
         <div>
           <div className={styles.heading}>
-            <p>Top 50 Languages</p>
+            <h1>Top 50 Languages</h1>
           </div>
           <img src="SVG/orgline.svg" alt="orgline" />
           <div className={styles['p-org']}>
