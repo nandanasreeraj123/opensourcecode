@@ -87,6 +87,9 @@ export default function FormOsp() {
             <img src="SVG/Group 142.svg" alt="upload" className={styles.upload} />
           </div>
         </div>
+        <div>
+            <button type="button" className={styles["enter-button"]}>Submit</button>
+        </div>
       </div>
     </div>
   );
