@@ -26,6 +26,7 @@
   font-size: 1.5rem;
   font-weight: 500;
 }
+
 .bigBox {
   box-shadow: 0 0 0.3125rem #888;
   margin-left: 20px;
@@ -42,9 +43,7 @@
 
 .qns {
   text-align: justify;
-
   font-size: 1.3rem;
-  /* margin-left: 4rem; */
   margin-top: 3.4rem;
   font-weight: 700;
 }
