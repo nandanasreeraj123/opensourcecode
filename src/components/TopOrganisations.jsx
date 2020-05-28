@@ -1,8 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
-=======
 
->>>>>>> upstream/master
 import styles from '../css/org.module.css';
 
 export default function TopOrganisation() {
