@@ -6,13 +6,11 @@ const FormOsp = () => {
   const [tag, setTag] = useState('');
   const [tags, setTags] = useState([]);
 
+
   const onChange = (e) => {
     setTag(e.target.value);
   };
 
-  const generateKey = (pre) => {
-    return `${pre}_${new Date().getTime()}`;
-  }
 
   const removeTag = (indexToRemove) => {
     setTags([...tags.filter((element, index) => index !== indexToRemove)]);
@@ -61,7 +59,8 @@ const FormOsp = () => {
             </form>
             <ul className={styles.skillList}>
               {tags.map((Tag, index) => (
-                <div key={generateKey(Tag)} className={styles.skill}>
+                // eslint-disable-next-line react/no-array-index-key
+                <div key={index} className={styles.skill}>
                   <li>{Tag}</li>
                   <div
                     role="button"
