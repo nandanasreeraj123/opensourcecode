@@ -57,7 +57,7 @@ const FormOsp = () => {
             </form>
             <ul className={styles.skillList}>
               {tags.map((Tag, index) => (
-                <div key={Tag} className={styles.skill}>
+                <div key={{Tag}-{index}} className={styles.skill}>
                   <li>{Tag}</li>
                   <div
                     role="button"
